@@ -1,0 +1,19 @@
+.my_card{
+    background-color: aqua!important;
+}
+
+.minus, .plus {
+    padding: 8px;
+    font-size: 22px;
+    color: brown;
+}
+
+.minus:hover, .plus:hover{
+    cursor: pointer;
+}
+
+.count {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px;
+}

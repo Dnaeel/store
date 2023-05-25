@@ -1,0 +1,16 @@
+li {
+    list-style: none;
+}
+
+ul {
+    border: 1px solid black;
+}
+
+h2 {
+    padding: 20px 0 30px 40px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
