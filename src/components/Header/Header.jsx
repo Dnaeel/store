@@ -1,4 +1,5 @@
 import React from "react";
+import {Link, NavLink} from "react-router-dom"
 import { links } from "../../constants/road"
 
 const Header = () => {
@@ -11,9 +12,11 @@ const Header = () => {
                             links.map((item) => {
                                 return (
                                     <li key={item.id} className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href={item.link}>
+                                        <NavLink className={
+                                            ({ isActive}) => (isActive ? "nav-link active" : "nav-link")
+                                        } to={item.href}>
                                             {item.name}
-                                        </a>
+                                        </NavLink>
                                     </li>
                                 )
                             })

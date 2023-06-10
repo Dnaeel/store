@@ -1,8 +1,8 @@
 export const links = [
     {
         id:1,
-        link:"https://www.sulpak.kg/",
-        name:"Главная"
+        href:"/",
+        name:"Главная",
     },
     {
         id:2,
@@ -16,7 +16,7 @@ export const links = [
     },
     {
         id:4,
-        link:"https://www.beeline.kg",
+        href: "/cart",
         name:"Корзина"
     }
 ]

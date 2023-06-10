@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./ProductCard.module.css";
 import { setCart, getCart, checkProduct } from "../../helpers/cart";
+import {Link, NavLink} from "react-router-dom";
 
 
 const ProductCard = ({ id, name, desc, price, img, availibility }) => {
@@ -38,7 +39,7 @@ const ProductCard = ({ id, name, desc, price, img, availibility }) => {
         availibility ? (<div className='m-2 card' style={{ width: "18rem" }}>
             <img src={img} className="card-img-top w-100 h-25 m-auto" alt="..." />
             <div className="card-body">
-                <h5 className="card-title"><b>{name}</b></h5>
+                <NavLink className="card-title" to= {`product/${id}`}><b>{name}</b></NavLink>
                 <p className="card-text">
                     {desc}
                 </p>

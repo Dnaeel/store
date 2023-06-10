@@ -5,6 +5,7 @@ export const products = [
         desc:"Простой, но модный дизайн открывает новые возможности. Обруч изготовлен из эластичного и безвредного для кожи материала со вставками матового металла. Он плотно прилегает к шее и подходит даже для самых активных меломанов.",
         price:2900,
         count: 1,
+        brend: "/2/?brand",
         img:"https://mi-shop.kg/wp-content/uploads/2018/06/neckband-silver-1-300x300.jpg",
         availibility:true
     },
@@ -14,6 +15,7 @@ export const products = [
         desc:"Чтобы максимально защитить Ваши вещи в чемоданах Xiaomi 90 Points 26″ используется материал Makrolon от немецкого производителя Bayer – такой же, какой используется для изготовления фар автомобилей класса «люкс».",
         price:10100,
         count: 1,
+        brend: "xiomi",
         img:"https://mi-shop.kg/wp-content/uploads/2018/07/90points-suitcase28-black-1-300x300.jpg",
         availibility:false
     },
@@ -23,6 +25,7 @@ export const products = [
         desc:"Не смотря на то, что очиститель воздуха может удалить взвешенную в воздухе пыль, PM2.5, плохо проветриваемые помещения являются благоприятной средой для размножения бактерий, а также плесневых грибов и пылевых клещей, это приводит к повторному загрязнению воздуха.",
         price:3300,
         count: 1,
+        brend: "xiomi",
         img:"https://mi-shop.kg/wp-content/uploads/2019/03/mi-air-purifier-filter-antibacterial-all-1-300x300.jpg",
         availibility:true
     },
@@ -32,6 +35,7 @@ export const products = [
         desc:"Enchen Hummingbird Black – современная и простая в использовании машинка для стрижки волос, имеющая три разные насадки. С помощью триммера Enchen Hummingbird Black можно без особого труда создавать различные стрижки, постоянно меняя свой образ.",
         price:1600,
         count: 1,
+        brend: "xiomi",
         img:"https://mi-shop.kg/wp-content/uploads/2019/08/enchen-hummingbird-black-1-300x300.jpg",
         availibility:false
     },
